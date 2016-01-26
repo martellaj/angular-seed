@@ -1,0 +1,16 @@
+{
+  "name": "angular-seed",
+  "version": "0.0.1",
+  "description": "Component-based Angular seed.",
+  "main": "server.js",
+  "scripts": {
+    "lint": "semistandard | snazzy"
+  },
+  "author": "Joe Martella",
+  "license": "MIT",
+  "devDependencies": {
+    "livereload": "^0.4.0",
+    "semistandard": "^7.0.5",
+    "snazzy": "^2.0.1"
+  }
+}
