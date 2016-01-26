@@ -9,7 +9,7 @@
   "author": "Joe Martella",
   "license": "MIT",
   "devDependencies": {
-    "livereload": "^0.4.0",
+    "live-server": "^0.9.1",
     "semistandard": "^7.0.5",
     "snazzy": "^2.0.1"
   }
