@@ -17,13 +17,11 @@
 </head>
 
 <body layout="column" ng-cloak>
-  <!--<ng-include src="'layout/navbar.html'"></ng-include>-->
+  <ng-include src="'layout/navbar.html'"></ng-include>
 
   <main class="container">
     <ng-view></ng-view>
   </main> <!-- container -->
-
-  <!--<ng-include src="'layout/footer.html'"></ng-include>-->
 
   <!-- Angular 
   ==================================== -->
@@ -36,6 +34,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   
   <script src="app.module.js"></script>
+  <script src="layout/layout.module.js"></script>
+  <script src="layout/navbar.controller.js"></script>
   <script src="main/main.module.js"></script>
   <script src="main/main.controller.js"></script>      
 </body>

@@ -4,6 +4,7 @@
   angular
     .module('app', [
       'ngRoute',
+      'app.layout',
       'app.main',
     ])
     .config(config);
@@ -14,7 +15,8 @@
       .when('/', {
         templateUrl: 'main/main.html',
         controller: 'MainController',
-        controllerAs: 'main'
+        controllerAs: 'main',
+        activeTab: 'main'
       })
       .otherwise({
         redirectTo: '/'
