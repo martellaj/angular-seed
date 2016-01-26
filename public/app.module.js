@@ -5,7 +5,7 @@
     .module('app', [
       'ngRoute',
       'app.layout',
-      'app.main',
+      'app.bst',
     ])
     .config(config);
 
@@ -13,10 +13,10 @@
     // Configure the routes.
     $routeProvider
       .when('/', {
-        templateUrl: 'main/main.html',
-        controller: 'MainController',
-        controllerAs: 'main',
-        activeTab: 'main'
+        templateUrl: 'bst/bst.html',
+        controller: 'BSTController',
+        controllerAs: 'bst',
+        activeTab: 'bst'
       })
       .otherwise({
         redirectTo: '/'

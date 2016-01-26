@@ -1,13 +1,13 @@
 (function () {
   angular
-    .module('app.main')
-    .controller('MainController', MainController);
+    .module('app.bst')
+    .controller('BSTController', BSTController);
 
   /**
-   * The MainController code.
+   * The BSTController code.
    */
-  MainController.$inject = ['$log'];
-  function MainController ($log) {
+  BSTController.$inject = ['$log'];
+  function BSTController ($log) {
     var vm = this;
 
     // Properties
@@ -19,7 +19,7 @@
      * controller needs.
      */
     (function activate () {
-      $log.debug('Activated MainController.');
+      $log.debug('Activated BSTController.');
     })();
   }
 })();
