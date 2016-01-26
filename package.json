@@ -4,13 +4,18 @@
   "description": "Component-based Angular seed.",
   "main": "server.js",
   "scripts": {
+    "start": "node ./bin/www",
     "lint": "semistandard | snazzy"
   },
   "author": "Joe Martella",
   "license": "MIT",
   "devDependencies": {
-    "live-server": "^0.9.1",
     "semistandard": "^7.0.5",
     "snazzy": "^2.0.1"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "morgan": "^1.6.1",
+    "path": "^0.12.7"
   }
 }
