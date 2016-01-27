@@ -7,11 +7,11 @@ var app = express();
 app.use(logger('dev'));
 
 // Set the public folder to serve public assets.
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '/../client')));
 
 // Set up our one route to the index.html file.
 app.get('*', function (req, res) {
-	res.sendFile(path.join(__dirname + '/public/index.html'));
+	res.sendFile(path.join(__dirname + '/../client/index.html'));
 });
 
 module.exports = app;
