@@ -1,5 +1,14 @@
 <div class="row">
-  <div class="col-sm-6">
-    HEY
+  <div class="col-sm-3">
+    <h2>input</h2>
+    <input type="number" class="number-input" ng-model="main.input1" />
+    <input type="number" class="number-input" ng-model="main.input2" />
+  </div> <!-- col-sm-6 -->
+  <div class="col-sm-3" ng-show="main.input1 && main.input2">
+    <h2>output</h2>
+    <p>{{main.input1}} + {{main.input2}} = {{main.input1 + main.input2}}</p>
+    <p>{{main.input1}} - {{main.input2}} = {{main.input1 - main.input2}}</p>
+    <p>{{main.input1}} / {{main.input2}} = {{main.input1 / main.input2}}</p>
+    <p>{{main.input1}} * {{main.input2}} = {{main.input1 * main.input2}}</p>
   </div> <!-- col-sm-6 -->
 </div> <!-- row -->
