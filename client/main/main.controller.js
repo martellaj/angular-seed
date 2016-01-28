@@ -11,8 +11,8 @@
     var vm = this;
 
     // Properties
-    vm.input1;
-    vm.input2;
+    vm.input1 = null;
+    vm.input2 = null;
 
     // Methods
 
