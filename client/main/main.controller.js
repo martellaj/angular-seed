@@ -19,6 +19,7 @@
     vm.subtract = subtract;
     vm.multiply = multiply;
     vm.divide = divide;
+    vm.reverseInputs = reverseInputs;
 
     /**
      * This function does any initialization work the
@@ -46,6 +47,12 @@
       } else {
         return a / b;
       }
+    }
+    
+    function reverseInputs () {
+      var temp = vm.input1;
+      vm.input1 = vm.input2;
+      vm.input2 = temp;
     }
   }
 })();
