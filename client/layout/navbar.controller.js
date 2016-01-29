@@ -13,8 +13,6 @@
     // Properties
     vm.activeTab = null;
 
-    // Methods
-
     /**
      * This function does any initialization work the
      * controller needs.
