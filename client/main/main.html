@@ -3,12 +3,12 @@
     <h2>input</h2>
     <input type="number" class="number-input" ng-model="main.input1" />
     <input type="number" class="number-input" ng-model="main.input2" />
-  </div> <!-- col-sm-6 -->
+  </div> <!-- col-sm-4 -->
   <div class="col-sm-4" ng-show="main.input1 !== null && main.input2 !== null">
     <h2>output</h2>
-    <p>{{main.input1}} + {{main.input2}} = {{main.input1 + main.input2}}</p>
-    <p>{{main.input1}} - {{main.input2}} = {{main.input1 - main.input2}}</p>
-    <p>{{main.input1}} / {{main.input2}} = {{main.input1 / main.input2}}</p>
-    <p>{{main.input1}} * {{main.input2}} = {{main.input1 * main.input2}}</p>
-  </div> <!-- col-sm-6 -->
+    <p>{{main.input1}} + {{main.input2}} = {{main.add(main.input1, main.input2)}}</p>
+    <p>{{main.input1}} - {{main.input2}} = {{main.subtract(main.input1, main.input2)}}</p>
+    <p>{{main.input1}} / {{main.input2}} = {{main.divide(main.input1, main.input2)}}</p>
+    <p>{{main.input1}} * {{main.input2}} = {{main.multiply(main.input1, main.input2)}}</p>
+  </div> <!-- col-sm-4 -->
 </div> <!-- row -->
