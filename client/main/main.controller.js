@@ -10,10 +10,6 @@
   function MainController ($log) {
     var vm = this;
 
-    // Properties
-
-    // Methods
-
     /**
      * This function does any initialization work the
      * controller needs.
